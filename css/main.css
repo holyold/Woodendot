@@ -1,0 +1,375 @@
+/* HEADER */
+
+.wrapper {
+    width: 100%;
+    max-width: 1380px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.header___body {
+    padding: 17px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu {
+    display: flex;
+}
+.header__link {
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+    margin-right: 20px;
+}
+.header__link:hover {
+    text-decoration: underline;
+}
+
+.header__logo, .logo {
+    padding-right: 40px;
+}
+
+
+/* MAIN */
+.main {
+    margin: 20px auto 0;   
+    background: #F7F7F7;
+}
+
+.main__background {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    max-width: 1440px;
+    width: 100%; 
+}
+.main__background-image {
+    max-width: 1440px;
+    width: 100%;   
+
+    
+}
+.main__body {
+    margin: 0 auto;
+    position: absolute;
+    width: 807px;
+    left: 328px;
+    top: 258px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+.main__title {
+    margin-bottom: 31px;
+    font-weight: 700;
+}
+.btn {
+    padding: 10px 40px;
+
+    font-family: 'Cardo';
+    font-weight: 700;
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    border: #fff 2px solid;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color .2s linear;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.411);
+
+}
+
+.main__background p {
+    position: absolute;
+    left: 10px;
+    bottom: 3px;
+
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 15px;
+    padding: 15px 30px;
+
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* FEATIRES */
+.main__features {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.features {
+    display: flex;
+    padding: 53px 0;  
+    align-items: center;
+}
+.features img {
+    margin-right: 20px;
+}
+
+
+/* DESIGNS */
+.designs {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 115px;
+    background: #F7F7F7;
+}
+
+/* PRODUCTS */
+.products {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background: #F7F7F7;
+}
+.catalog__products {
+    display: flex;
+}
+
+.about__product {
+    margin: 50px 40px 0 0;
+    text-align: right;
+    color: #000000;
+}
+.about__product-left {
+    margin: 50px 0 0 40px;
+    text-align: left;
+}
+.about__product h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 33px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+.about__product span {
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #BC1414;
+}
+.about__product a {
+    display: block;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.about__product a:hover {
+    text-decoration: underline;
+}
+.about__product img {
+
+}
+.product__name {
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+.description {
+    margin: 10px 0 65px 0;
+    max-width: 437px;
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 18px;
+    color: #525252;
+}
+
+
+
+/*  PIECES */
+.pieces {
+    margin: 0 auto;
+    text-align: center;
+}
+.pieces h2 {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    /* identical to box height, or 130% */
+    
+    text-align: center;
+    
+    color: #3A3A3A;
+    margin-bottom: 15px;
+}
+.pieces h4 {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    /* identical to box height, or 186% */
+    
+    text-align: center;
+    
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+
+/* REVIEWS */
+.reviews {
+    margin-top: 120px;
+
+}
+.reviews__slider {  
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #020202;
+}
+.author__reviews {
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* services */
+.services {
+    margin: 0 auto;
+}
+.services__body {
+    display: flex;
+    justify-content: space-between;
+}
+.suggestions {
+    width: 100%;
+    max-width: 360px;
+    height: 20%;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Cardo';
+    font-weight: 400;
+    line-height: 35px;
+    color: #000;
+}
+.suggestions_gray {
+    background: #F8F8F8;
+}
+.services__img {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.services__title {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.services__text {
+    padding-top: 12px;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.services__more {
+    text-decoration: underline;
+}
+
+/* partners */
+.partners {
+    padding: 100px 0;
+    text-align: center;
+}
+.partners__title {
+    margin-bottom: 40px;
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    color: #454545;
+}
+
+/* footer */
+.footer {
+    background: #E9E9E9;
+    font-family: 'Cardo';
+    font-weight: 400;
+}
+.footer__head {
+    display: flex;
+    justify-content: space-between;
+}
+.helper {
+    padding-top: 45px;
+    text-align: center;
+    width: 20%;
+
+}
+.helper__title {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 45px;
+}
+.helper__item {
+    font-size: 15px;
+    line-height: 30px; 
+    color: #000;
+}
+.helper__item:hover {
+    text-decoration: underline;
+}
+
+.offers {
+padding-top: 45px;
+}
+.offers__title {
+    font-size: 15px;
+    margin-bottom: 17px;
+}
+.btn__footer {
+    background-color: #fff;
+    color: #000;
+    padding: 4px 38px;
+    border: #000 1px solid;
+    margin-bottom: 30px;
+}
+.btn__footer:hover {
+    box-shadow: #000 1px 1px 2px;
+}
+.footer__img {
+    width: 200px;
+    text-align: center;
+}
+.footer__img img {
+    margin: 10px;
+}
+
+.footer__copyrite {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.copyrite__title, .privacy {
+    padding-top: 30px;
+}
